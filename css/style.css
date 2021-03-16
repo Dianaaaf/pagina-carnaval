@@ -1,0 +1,167 @@
+@charset "utf8";
+
+
+*{
+    background-color: rgb(194, 194, 250);
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    margin-right: 5px;
+}
+main{
+    background-color: white;
+    width: 500px; /*largura*/
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+h1{
+    background-color: white;
+}
+
+
+/*PÁGINA DE INDEX*/
+#index{
+    text-align: center;
+    font-family: monospace;
+    font-size: 25;
+    font-weight: bold;
+    color: orangered;
+    text-shadow: black 2px 2px;
+}
+/*titulo*/
+#titulo_index{
+    margin-bottom: 4px;
+    color: purple;
+}
+/*imagem*/
+#voltar{
+    width: 80px;
+    height: 80px;
+}
+#carnaval{
+    width: 450px; /*largura*/
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#texto1{
+    font-family: Arial;
+    font-size: 17px;
+    color: black;
+    text-align: justify;
+    margin-top: 6px;
+}
+#texto2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+/*informações extras*/
+#extras{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 92px;
+}
+#marchinha{
+    border-top: black 1px;
+    border-bottom: black 1px;
+    border-left: black 1px;
+    border-right: black 1px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: black 1px 1px;
+    background-color: white;
+    color: black;
+    font-family: georgia, 'serif';
+    font-weight: bold;
+    font-size: 13px;
+    padding: 7px;
+    text-decoration: none; /*opção NONE tira o sublinhado de link*/
+}
+#vídeo{
+    border-top: black 1px;
+    border-bottom: black 1px;
+    border-left: black 1px;
+    border-right: black 1px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: black 1px 1px;
+    background-color: white;
+    color: black;
+    font-family: georgia, 'serif';
+    font-weight: bold;
+    font-size: 13px;
+    padding: 7px;
+    text-decoration: none;
+}
+#form{
+    border-top: black 1px;
+    border-bottom: black 1px;
+    border-left: black 1px;
+    border-right: black 1px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: black 1px 1px;
+    background-color: white;
+    color: black;
+    font-family: georgia, 'serif';
+    font-weight: bold;
+    font-size: 13px;
+    padding: 7px;
+    text-decoration: none;
+}
+/*rodapé*/
+footer{
+    border-top: 1px solid black;
+    text-align: center;
+    color: black;
+    font-family: noto sans, 'sans-serif';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/*PÁGINA DA MÚSICA DA MARCHINHA*/
+#voltar{
+    color: mediumslateblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*cabeçalho*/
+#música{
+    margin-bottom: 40px;
+}
+
+
+/*PÁGINA DO FORMULÁRIO*/
+/*cabeçalho*/
+#terceiro{
+    margin-bottom: 40px;
+}
+/*div com todos os campos do formulário*/
+#formulário{
+    text-align: center;
+}
+#titulo_form{
+    font-family: andale mono, 'monospace';
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-shadow: #363636 1px 1px;
+}
+.campo_nome, .campo_email, .campo_mensagens{
+    margin-bottom: 15px;
+    padding: 9px;
+    width: 400px; /*largura*/
+    border-radius: 20px;
+}
+.campo_mensagens{
+    height: 150px; /*altura*/
+}
+
